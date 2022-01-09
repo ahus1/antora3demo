@@ -1,0 +1,49 @@
+site:
+  title: Hello World 3.0
+  start_page: ROOT::index.adoc
+content:
+  sources:
+    - url: ..
+      start_paths:
+        - antora30/content
+        - antora30/root
+      branches:
+        - 'HEAD'
+
+antora:
+  extensions:
+    - require: '@antora/lunr-extension'
+
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
+  supplemental_files: supplemental_ui
+
+runtime:
+  fetch: true
+  cache_dir: ./.cache/antora
+  log:
+    failure_level: error
+
+urls:
+  latest_version_segment: current
+
+output:
+  clean: true
+  dir: site
+
+# Global asciidoc attributes here, used across all versions of documentation
+asciidoc:
+  # sourcemap shows line numbers in error messages, while may increase the duration and memory-footprint when building the site
+  sourcemap: true
+  extensions:
+    - asciidoctor-kroki
+    # Antora will resolve extensions listed here that end with something that looks like a file name extension as files relative to the project's folder
+    # therefore append the slash
+    - asciidoctor-highlight.js/
+  attributes:
+    kroki-fetch-diagram: true
+    idprefix: ''
+    idseparator: '-'
+    source-highlighter: highlightjs-ext

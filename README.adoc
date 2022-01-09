@@ -1,0 +1,38 @@
+= Migrating to Antora 3
+
+== About
+
+This project contains a side-by-side example for Antora 2.3 and Antora 3.0.
+
+It highlights the changes that from the major release.
+
+== What is special in this setup?
+
+For a regular setup, I would recommend one repository for the content and another git repository for the site and its playbook.
+
+For this example, everything is in one Git repository to make it simpler to compare the changes in this release.
+
+== Prerequisites
+
+. Node.js
+. yarn
+
+== How to run this project
+
+. Clone this repository
+. Change in each folder
+. Run
++
+----
+yarn install
+yarn build
+yarn serve
+----
++
+Run `install` once to install the dependencies.
+Run again, when dependencies change.
++
+Run `build` whenever a configuration or content changes.
++
+Run `serve` once (ideally in a new shell) to serve the generated contents for a local web browser.
+

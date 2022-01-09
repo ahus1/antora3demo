@@ -1,0 +1,36 @@
+site:
+  title: Hello World 2.3
+  start_page: hello-world::index.adoc
+content:
+  sources:
+    - url: ..
+      start_paths:
+        - antora23/content
+      branches:
+        - 'HEAD'
+
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
+  supplemental_files: supplemental_ui
+
+runtime:
+  fetch: true
+  cache_dir: ./.cache/antora
+
+output:
+  clean: true
+  dir: site
+
+# Global asciidoc attributes here, used across all versions of documentation
+asciidoc:
+  extensions:
+    - asciidoctor-kroki
+    - asciidoctor-highlight.js
+  attributes:
+    kroki-fetch-diagram: true
+    idprefix: ''
+    idseparator: '-'
+    source-highlighter: highlightjs-ext
+

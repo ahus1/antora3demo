@@ -1,0 +1,3 @@
+= Attachments
+
+link:{attachmentsdir}/test.txt[An attachment]

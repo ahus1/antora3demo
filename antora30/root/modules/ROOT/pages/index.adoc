@@ -1,0 +1,3 @@
+= Start page
+
+Start page of the ROOT component.

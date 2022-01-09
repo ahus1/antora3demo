@@ -1,0 +1,12 @@
+= Welcome to the world of Antora docs!
+:navtitle: Welcome!
+
+Hello world!
+
+This xref:nonexistent.adoc[link doesn't exist.]
+
+.This is collapsible
+[%collapsible]
+====
+Some text.
+====

@@ -1,0 +1,9 @@
+= Examples
+
+// on Windows 10:
+// . enable developer mode to create link without elevation
+// . create link using `mklink link target`
+
+----
+include::example$package.json[]
+----

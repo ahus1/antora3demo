@@ -1,0 +1,3 @@
+= Attachments
+
+xref:attachment$test.txt[An attachment]
