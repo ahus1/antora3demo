@@ -1,6 +1,6 @@
 site:
   title: Hello World 2.3
-  start_page: hello-world::index.adoc
+  start_page: hello-world-v2::index.adoc
 content:
   sources:
     - url: ..
