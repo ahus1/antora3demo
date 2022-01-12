@@ -6,6 +6,10 @@ This project contains a side-by-side example for Antora 2.3 and Antora 3.0.
 
 It highlights the changes that from the major release.
 
+I gave this a presentation and a live demo at a meetup in January 2022.
+See section xref:_links[Links] for the slides.
+Let me know if you want to see this presentation at a meetup near you as well.
+
 == What is special in this setup?
 
 For a regular setup, I would recommend one repository for the content and another git repository for the site and its playbook.
@@ -41,3 +45,18 @@ Afterwards, use the following URLs to look at the generated Antora sites:
 Antora 2.3:: http://localhost:5000/
 
 Antora 3.0:: http://localhost:5001/
+
+[#_links]
+== Links
+
+* https://speakerdeck.com/ahus1/antora-3-release-celebration[Slides for the talk]
+
+* https://antora.org/[Antora]
+
+* https://asciidoctor.org/[Asciidoctor]
+
+* https://intellij-asciidoc-plugin.ahus1.de/[IntelliJ AsciiDoc Plugin]
+
+* https://www.ahus1.de/post/asciidoctor-intro-and-deep-dive[More Videos, slides and examples]
+
+* https://www.ahus1.de/post/cdc-antora-live[An introduction to Antora]
