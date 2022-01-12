@@ -3,7 +3,7 @@
 
 Hello world!
 
-This xref:nonexistent.adoc[link doesn't exist.]
+// This xref:nonexistent.adoc[link doesn't exist.]
 
 .This is collapsible
 [%collapsible]
