@@ -36,3 +36,8 @@ Run `build` whenever a configuration or content changes.
 +
 Run `serve` once (ideally in a new shell) to serve the generated contents for a local web browser.
 
+Afterwards, use the following URLs to look at the generated Antora sites:
+
+Antora 2.3:: http://localhost:5000/
+
+Antora 3.0:: http://localhost:5001/
