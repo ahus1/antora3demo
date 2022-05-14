@@ -94,6 +94,15 @@
     lunr "~2.3"
     lunr-languages "~1.9"
 
+"@antora/lunr-extension@https://gitlab.com/antora/antora-lunr-extension":
+  version "1.0.0-alpha.6"
+  resolved "https://gitlab.com/antora/antora-lunr-extension#a70608276cf4287111f20a0cb5228df030d67f46"
+  dependencies:
+    cheerio "1.0.0-rc.10"
+    html-entities "~2.3"
+    lunr "~2.3"
+    lunr-languages "~1.9"
+
 "@antora/navigation-builder@3.0.1":
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/@antora/navigation-builder/-/navigation-builder-3.0.1.tgz#63aae542d32f559b8e0a8a53e2969bab310ed50a"
